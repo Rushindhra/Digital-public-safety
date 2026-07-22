@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "victim_1", "type": "victim"},
+    {"id": "victim_2", "type": "victim"},
+    {"id": "phone_91", "type": "phone"},
+    {"id": "upi_mule", "type": "account"},
+    {"id": "bank_ac", "type": "bank"},
+    {"id": "device_x", "type": "device"}
+  ],
+  "edges": [
+    {"source": "victim_1", "target": "phone_91"},
+    {"source": "victim_2", "target": "phone_91"},
+    {"source": "phone_91", "target": "upi_mule"},
+    {"source": "upi_mule", "target": "bank_ac"},
+    {"source": "device_x", "target": "upi_mule"}
+  ]
+}

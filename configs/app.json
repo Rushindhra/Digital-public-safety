@@ -1,0 +1,20 @@
+{
+  "app_name": "Digital Public Safety Intelligence Platform",
+  "database": {
+    "type": "mongodb",
+    "uri_env": "MONGODB_URI",
+    "db_name_env": "MONGODB_DB_NAME",
+    "default_uri": "mongodb://localhost:27017",
+    "default_db": "digital_public_safety"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "prefix": "/api/v1"
+  },
+  "frontend": {
+    "port": 3000,
+    "api_url_env": "NEXT_PUBLIC_API_URL"
+  },
+  "roles": ["citizen", "officer", "analyst", "admin"]
+}

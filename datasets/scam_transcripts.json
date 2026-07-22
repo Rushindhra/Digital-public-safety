@@ -1,0 +1,122 @@
+[
+  {
+    "id": "s1",
+    "content": "CBI officer says you are under digital arrest. Transfer all savings to safe account.",
+    "label": "scam",
+    "tags": ["digital_arrest", "authority_impersonation", "payment_request"]
+  },
+  {
+    "id": "s2",
+    "content": "Your parcel is held at customs. Pay penalty via UPI immediately.",
+    "label": "scam",
+    "tags": ["payment_request", "urgency_threat"]
+  },
+  {
+    "id": "s3",
+    "content": "Meeting rescheduled to 4 PM tomorrow at the office.",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s4",
+    "content": "Do not tell your family. Stay on video call or warrant will be issued.",
+    "label": "scam",
+    "tags": ["digital_arrest", "secrecy_pressure", "urgency_threat"]
+  },
+  {
+    "id": "s5",
+    "content": "Your bank account has been compromised. Share your OTP and CVV immediately to secure it.",
+    "label": "scam",
+    "tags": ["credential_theft", "urgency_threat", "phishing_link"]
+  },
+  {
+    "id": "s6",
+    "content": "Congratulations! You have won a prize. Click here to claim your reward.",
+    "label": "scam",
+    "tags": ["phishing_link", "payment_request"]
+  },
+  {
+    "id": "s7",
+    "content": "Income tax department has found discrepancy in your return. Pay fine immediately or face legal action.",
+    "label": "scam",
+    "tags": ["authority_impersonation", "urgency_threat", "payment_request"]
+  },
+  {
+    "id": "s8",
+    "content": "Please come to the office tomorrow morning for the team meeting.",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s9",
+    "content": "Your Amazon account is locked. Verify your identity by entering your password and card number.",
+    "label": "scam",
+    "tags": ["credential_theft", "phishing_link"]
+  },
+  {
+    "id": "s10",
+    "content": "Hi! Can we schedule a call this week to discuss the project?",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s11",
+    "content": "ED officer calling. Your family member is involved in a criminal case. Send money to safe account immediately.",
+    "label": "scam",
+    "tags": ["authority_impersonation", "digital_arrest", "payment_request", "urgency_threat"]
+  },
+  {
+    "id": "s12",
+    "content": "I'll send you the document by email later today.",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s13",
+    "content": "Your password has expired. Click here immediately to reset and maintain access.",
+    "label": "scam",
+    "tags": ["phishing_link", "urgency_threat"]
+  },
+  {
+    "id": "s14",
+    "content": "Police department: You have a warrant. Do not attempt to run or the case will be escalated.",
+    "label": "scam",
+    "tags": ["digital_arrest", "authority_impersonation", "urgency_threat", "secrecy_pressure"]
+  },
+  {
+    "id": "s15",
+    "content": "Thanks for your email. I will get back to you soon.",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s16",
+    "content": "Your UPI ID is registered on 5 other phones. Unlink immediately or your account will be frozen.",
+    "label": "scam",
+    "tags": ["urgency_threat", "payment_request"]
+  },
+  {
+    "id": "s17",
+    "content": "Let's meet for coffee at the usual place.",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s18",
+    "content": "राजस्व विभाग: आपके नाम पर टैक्स की बकाया है। तुरंत 50000 रुपये भेजें या गिरफ्तारी होगी।",
+    "label": "scam",
+    "tags": ["authority_impersonation", "payment_request", "urgency_threat"]
+  },
+  {
+    "id": "s19",
+    "content": "कल मीटिंग में आना है।",
+    "label": "benign",
+    "tags": []
+  },
+  {
+    "id": "s20",
+    "content": "RBI: Your debit card has been cloned. Activate a new card by sharing your PIN on this link.",
+    "label": "scam",
+    "tags": ["authority_impersonation", "credential_theft", "phishing_link"]
+  }
+]
